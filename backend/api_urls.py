@@ -1,9 +1,7 @@
-
-
 # backend/api_urls.py
 
 from django.urls import path, include
-from .api import views as api_views
+from . import api_views  # Changed from .api import views to . import api_views
 
 app_name = 'api'
 
@@ -33,6 +31,6 @@ urlpatterns = [
     # API Analytics endpoints
     path('analytics/', include([
         path('overview/', api_views.AnalyticsOverviewAPIView.as_view(), name='api_analytics_overview'),
-        path('campaigns/', api_views.CampaignAnalyticsAPIView.as_view(), name='api_campaign_analytics'),
+        path('campaigns/', api_views.CampaignAnalyticsAPIView.as_view(), name='api_campaign_analytics_list'),
     ])),
 ]

@@ -1,9 +1,7 @@
-
-
 # backend/pwa_urls.py
 
 from django.urls import path
-from . import pwa_views
+from .views import pwa_views  # Changed from . import pwa_views to .views import pwa_views
 
 urlpatterns = [
     path('manifest.json', pwa_views.ManifestView.as_view(), name='manifest'),

@@ -336,3 +336,26 @@ YAGMAIL_SETTINGS = {
     'smtp_port': 587,
     'use_tls': True,
 }
+
+
+
+
+# Add this to your afrimail/settings.py to disable Redis for development
+
+# Replace your CACHES configuration with this:
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'unique-snowflake',
+    }
+}
+
+# Comment out or modify your Celery configuration:
+# For development without Redis, you can disable Celery or use a different broker
+
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Comment this out
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'  # Comment this out
+
+# Add this for development without Celery:
+CELERY_TASK_ALWAYS_EAGER = True  # Run tasks synchronously in development
+CELERY_TASK_EAGER_PROPAGATES = True

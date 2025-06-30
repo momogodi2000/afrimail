@@ -4,6 +4,7 @@ from .auth_views import *
 from .dashboard_views import *
 from .contact_views import *
 from .campaign_views import *
+from .email_views import *  # Add this line
 from .analytics_views import *
 from .admin_views import *
 from .pwa_views import *

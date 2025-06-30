@@ -1,0 +1,34 @@
+ERROR 2025-06-30 16:29:22,344 authentication 14332 11324 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:29:22,360 authentication 14332 11324 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:29:22,363 authentication 14332 11324 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:29:22,367 authentication 14332 11324 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:29:22,372 authentication 14332 11324 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:31:30,278 authentication 6544 14304 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:31:30,281 authentication 6544 14304 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:31:30,284 authentication 6544 14304 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:31:30,287 authentication 6544 14304 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:31:30,289 authentication 6544 14304 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:32:37,903 authentication 12300 10468 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:32:37,906 authentication 12300 10468 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:32:37,909 authentication 12300 10468 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:32:37,913 authentication 12300 10468 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:32:37,919 authentication 12300 10468 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+INFO 2025-06-30 16:32:53,016 autoreload 2576 1876 Watching for file changes with StatReloader
+INFO 2025-06-30 16:33:11,094 basehttp 2576 12472 "GET / HTTP/1.1" 302 0
+WARNING 2025-06-30 16:33:12,682 log 2576 12472 Not Found: /accounts/login/
+WARNING 2025-06-30 16:33:12,758 basehttp 2576 12472 "GET /accounts/login/?next=/ HTTP/1.1" 404 4529
+INFO 2025-06-30 16:33:13,866 basehttp 2576 12472 "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-06-30 16:33:13,930 basehttp 2576 12472 "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2025-06-30 16:33:14,155 basehttp 2576 12472 "GET /favicon.ico HTTP/1.1" 301 0
+WARNING 2025-06-30 16:33:14,281 basehttp 2576 5192 "GET /static/icons/favicon.ico HTTP/1.1" 404 1911
+INFO 2025-06-30 16:35:45,008 autoreload 2576 1876 D:\project personnelle\afrimail pro\afrimail\backend\models\user_models.py changed, reloading.
+INFO 2025-06-30 16:35:48,941 autoreload 2352 11416 Watching for file changes with StatReloader
+INFO 2025-06-30 16:36:33,907 autoreload 14072 10724 Watching for file changes with StatReloader
+INFO 2025-06-30 16:37:28,460 autoreload 14072 10724 D:\project personnelle\afrimail pro\afrimail\afrimail\settings.py changed, reloading.
+INFO 2025-06-30 16:37:33,215 autoreload 8636 11356 Watching for file changes with StatReloader
+INFO 2025-06-30 16:43:04,975 autoreload 6360 8576 Watching for file changes with StatReloader
+ERROR 2025-06-30 16:48:17,052 authentication 6244 6852 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:48:17,056 authentication 6244 6852 Create super admin error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:48:17,059 authentication 6244 6852 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:48:17,062 authentication 6244 6852 Registration error: CustomUser() got unexpected keyword arguments: 'username'
+ERROR 2025-06-30 16:48:17,064 authentication 6244 6852 Registration error: CustomUser() got unexpected keyword arguments: 'username'
